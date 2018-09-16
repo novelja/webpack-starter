@@ -3,9 +3,18 @@
 @import './base/colors';
 @import './base/typography';
 
+
+// Utilities, mixins, functions and other helpers
+@import './utilities/mixins';
+@import './utilities/functions';
+@import './utilities/utilities';
+
+
 // Components
 @import './components/buttons';
 
+
 // Macro layout styles - Grid, header, footer, side...
 @import './layout/grid';
+
 
