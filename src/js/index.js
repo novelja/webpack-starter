@@ -1,5 +1,9 @@
+// import styles so webpack can bundle them
 import style from '../scss/main.scss';
 
-let a = 'Novelja';
-let next = () => console.log(`My name is: ${a}`);
-next();
+// import JS modules
+import func from './modules/function';
+
+
+// use JS modules
+func();
